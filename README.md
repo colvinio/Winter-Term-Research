@@ -1,4 +1,5 @@
 # Winter-Term_Research
+*NOTE: The original laptop this project was completed on is being repaired for water damage at the moment. It should be returned to me by Jan. 28. At this point I will upload the python files that I wrote.
 
 EXPLANATION OF PROJECT: Over my winter term in ‘23 at Oberlin College, I completed a similar project where looked to see if there were any differences in galaxy metallicity gradients between the DR17 and a former release, the DR15. Using MySQL, I accessed data calculated using 22 different metallicity calculation methods and used Python to calculate the 166,000 galaxy gradients. I graphed those gradients using Matplotlib. At the end of the winter term, we found that any differences between the two data releases were inconsequential, matching out hypothesis.
 
