@@ -1,4 +1,4 @@
-aimport mysql.connector as sql
+import mysql.connector as sql
 import datetime
 import matplotlib.pyplot as plt
 import numpy as np
@@ -27,7 +27,7 @@ def main():
             #List of galaxies that have either 1 or 2 metallicity points
             unusedGalaxies = []
 
-            db = sql.connect(host="ip-173-16.main.oberlin.edu", user="colvin", password="c0LV1n", database="sdss")
+            db = sql.connect(host="ip-******.main.oberlin.edu", user="******", password="******", database="****")
             c = db.cursor()
 
             #Get all objids where there are at least 3 metallicites, currently the limit has been removed
@@ -49,7 +49,7 @@ def main():
                 
                 useID = galaxyID[0]
 
-                db = sql.connect(host="ip-173-16.main.oberlin.edu",user="colvin", password="c0LV1n", database="sdss")
+                db = sql.connect(host="ip-******.main.oberlin.edu", user="******", password="******", database="****")
                 c = db.cursor()
 
                 #"""
